@@ -1,0 +1,26 @@
+name: Feature request
+description: Propose an algorithm or integration improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What calibration or integration problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and data
+      options:
+        - label: The proposal contains no credentials, private protocol, or sensitive field data.
+          required: true
+

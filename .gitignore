@@ -1,0 +1,48 @@
+# Build output
+/build*/
+/out/
+/bin/
+/lib/
+Makefile
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.user
+*.user.*
+.qmake.stash
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# IDE and OS
+.idea/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Calibration data and potentially sensitive field captures
+*.AR2
+*.log
+*.bin
+*.dat
+captures/
+results/
+WorkPara/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+local-config.*
+
